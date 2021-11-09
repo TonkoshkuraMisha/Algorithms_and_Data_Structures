@@ -14,3 +14,11 @@
 
 # Реализация двоичного дерева поиска. (Д.Д.П. - структура данных, хранящая в вершинах некоторые элементы, содержащие ключ.)
 
+class Node:
+    def __init__(self, key, value):
+        self.key = key
+        self.value = value
+        self.left = None
+        self.right = None
+        self.parent = None
+        

@@ -21,4 +21,6 @@ class Node:
         self.left = None
         self.right = None
         self.parent = None
-        
+
+
+# Алгоритм Флойда-Уоршолла.
